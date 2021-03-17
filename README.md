@@ -1,2 +1,2 @@
 # Chocolate_mod
-A minetest mod that adds chocolate just like olliy's Emerald_mod adds emeralds...
+A minetest mod that adds chocolate
