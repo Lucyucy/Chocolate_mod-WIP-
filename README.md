@@ -1,2 +1,2 @@
-# test
-test
+# Diamond_mod
+A minetest mod that adds diamonds just like olliy's Emerald_mod adds emeralds...
