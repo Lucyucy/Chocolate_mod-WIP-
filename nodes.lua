@@ -5,8 +5,14 @@ minetest.register_node("chocolate:chocolate_ore", {
 		drop = "chocolate:chocolate"
 })
 
-minetest.register_node("chocolate:chocolateblock", {
+minetest.register_node("chocolate:chocolate_block", {
 		description = "Chocolate Block",
 		tiles = {"chocolate_block.png"},
+		groups = {cracky = ?, level = ?}
+})
+
+minetest.register_node("chocolate:power_chocolate_block", {
+		description = "Power Chocolate Block",
+		tiles = {"power_chocolate_block.png"},
 		groups = {cracky = ?, level = ?}
 })
