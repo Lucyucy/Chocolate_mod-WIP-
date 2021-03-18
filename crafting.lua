@@ -1,5 +1,5 @@
 minetest.register_craft({
-    output = "chocolate:emeraldblock",
+    output = "chocolate:chocolateblock",
     recipe = {
         {"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
         {"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
@@ -13,6 +13,15 @@ minetest.register_craft({
 			{"", "", ""},
 			{"", "chocolate:chocolateblock", ""},
 			{"", "", ""}
+		}
+})
+
+minetest.register_craft({
+		output = "chocolate:powerchocolate"
+		recipe = {
+			{"default:diamond", "default:diamond", "default:diamond"}
+			{"default:diamond", "chocolate:chocolate", "default:diamond"}
+			{"default:diamond", "default:diamond", "default:diamond"}
 		}
 })
 
