@@ -1,5 +1,5 @@
 minetest.register_ore({
-    ore_type       = "???",
+    ore_type       = "scatter",
     ore            = "chocolate:chocolate_ore",
     wherein        = "default:stone",
     clust_scarcity = 7 * 7 * 7,
