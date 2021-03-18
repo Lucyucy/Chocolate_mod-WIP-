@@ -66,50 +66,6 @@ minetest.register_craft({
 -- Armor crafts
 
 minetest.register_craft({
-		output = "power_chocolate:helmet",
-		recipe = {
-			{"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
-			{"chocolate:power_chocolate", "", "chocolate:power_chocolate"}
-		}
-})
-
-minetest.register_craft({
-		output = "power_chocolate:chestplate",
-		recipe = {
-			{"chocolate:power_chocolate", "", "chocolate:chocolate"},
-			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
-			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"}
-		}
-})
-
-minetest.register_craft({
-		output = "chocolate:leggings",
-		recipe = {
-			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
-			{"chocolate:chocolate", "", "chocolate:chocolate"},
-			{"chocolate:chocolate", "", "chocolate:chocolate"}
-		}
-})
-
-minetest.register_craft({
-		output = "chocolate:boots",
-		recipe = {
-			{"chocolate:chocolate", "", "chocolate:chocolate"},
-			{"chocolate:chocolate", "", "chocolate:chocolate"}
-		}
-})
-
-minetest.register_craft({
-		output = "chocolate:shield",
-		recipe = {
-			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
-			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
-			{"", "chocolate:chocolate", ""}
-		}
-})
-
--- Power Armor crafts
-minetest.register_craft({
 		output = "chocolate:helmet",
 		recipe = {
 			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
@@ -149,5 +105,50 @@ minetest.register_craft({
 			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
 			{"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
 			{"", "chocolate:chocolate", ""}
+		}
+})
+
+-- Power Armor crafts
+
+minetest.register_craft({
+		output = "chocolate:power_helmet",
+		recipe = {
+			{"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
+			{"chocolate:power_chocolate", "", "chocolate:power_chocolate"}
+		}
+})
+
+minetest.register_craft({
+		output = "chocolate:power_chestplate",
+		recipe = {
+			{"chocolate:power_chocolate", "", "chocolate:power_chocolate"},
+			{"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
+			{"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"}
+		}
+})
+
+minetest.register_craft({
+		output = "chocolate:power_leggings",
+		recipe = {
+			{"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
+			{"chocolate:power_chocolate", "", "chocolate:power_chocolate"},
+			{"chocolate:power_chocolate", "", "chocolate:power_chocolate"}
+		}
+})
+
+minetest.register_craft({
+		output = "chocolate:power_boots",
+		recipe = {
+			{"chocolate:power_chocolate", "", "chocolate:power_chocolate"},
+			{"chocolate:power_chocolate", "", "chocolate:power_chocolate"}
+		}
+})
+
+minetest.register_craft({
+		output = "chocolate:power_shield",
+		recipe = {
+			{"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
+			{"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
+			{"", "chocolate:power_chocolate", ""}
 		}
 })
