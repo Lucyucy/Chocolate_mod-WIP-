@@ -30,6 +30,22 @@ minetest.register_tool("chocolate:pick_chocolate", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
+-- power pickaxe
+
+minetest.register_tool("chocolate:pick_power_chocolate", {
+	description = "Power Chocolate Pickaxe",
+	inventory_image = "power_chocolate_pickaxe.png"
+	tool_capabilities = {
+		full_punch_interval = ?,
+		max_drop_level = ?,
+		groupcaps = {
+			cracky = {times={????},
+		},
+		damage_groups = {fleshy = ?},
+	},
+	sound = {breaks = "default_tool_breaks"},
+})		
+
 --shovel
 
 minetest.register_tool("chocolate:shovel_chocolate", {
