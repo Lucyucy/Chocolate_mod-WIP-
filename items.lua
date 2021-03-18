@@ -4,6 +4,6 @@ minetest.register_craftitem("chocolate:chocolate", {
 })
 
 minetest.register_craftitem("chocolate:power_chocolate", {
-        description = "Chocolate Power Crystal",
+        description = "Power Chocolate Crystal",
         inventory_image = "power_chocolate.png"
 })
