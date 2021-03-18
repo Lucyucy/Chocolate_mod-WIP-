@@ -1,6 +1,6 @@
 if minetest.get_modpath("3d_armor") then
 	
-		armor:register_armor("chocolate:helmet", {
+	armor:register_armor("chocolate:helmet", {
 		description = ("Chocolate Helmet"),
 		inventory_image = "chocolate_helmet_inv.png",
 		groups = {armor_head=1, armor_heal=2, armor_use=50, armor_fire=1},
@@ -11,7 +11,7 @@ if minetest.get_modpath("3d_armor") then
 
 	armor:register_armor("chocolate:chestplate", {
 		description = ("Chocolate Chestplate"),
-		inventory_image = "1chocolate_chestplate_inv.png",
+		inventory_image = "chocolate_chestplate_inv.png",
 		groups = {armor_torso=1, armor_heal=2, armor_use=50, armor_fire=1},
 		armor_groups = {fleshy=1},
 		damage_groups = {cracky=2, snappy=1, level=3},
