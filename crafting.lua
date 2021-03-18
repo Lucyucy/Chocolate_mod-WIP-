@@ -1,5 +1,5 @@
 minetest.register_craft({
-    output = "chocolate:chocolateblock",
+    output = "chocolate:chocolate_block",
     recipe = {
         {"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
         {"chocolate:chocolate", "chocolate:chocolate", "chocolate:chocolate"},
@@ -11,7 +11,7 @@ minetest.register_craft({
 		output = "chocolate:chocolate 9",
 		recipe = {
 			{"", "", ""},
-			{"", "chocolate:chocolateblock", ""},
+			{"", "chocolate:chocolate_block", ""},
 			{"", "", ""}
 		}
 })
