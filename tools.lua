@@ -34,14 +34,14 @@ minetest.register_tool("chocolate:pick_chocolate", {
 
 minetest.register_tool("chocolate:pick_power_chocolate", {
 	description = "Power Chocolate Pickaxe",
-	inventory_image = "power_chocolate_pickaxe.png"
+	inventory_image = "power_chocolate_pickaxe.png",
 	tool_capabilities = {
-		full_punch_interval = ?,
-		max_drop_level = ?,
+		full_punch_interval = 0.7,
+		max_drop_level = 3,
 		groupcaps = {
-			cracky = {times={????},
+			cracky = {times={[1]=1.3, [2]=0.5, [3]=0.30}, uses=80, maxlevel=4},
 		},
-		damage_groups = {fleshy = ?},
+		damage_groups = {fleshy = 7},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })		
