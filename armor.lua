@@ -20,7 +20,7 @@ if minetest.get_modpath("3d_armor") then
 		wear = 0,
 	})
 
-	armor:register_armor("power_chocolate:leggings", {
+	armor:register_armor("chocolate:power_leggings", {
 		description = ("Power Chocolate Leggings"),
 		inventory_image = "power_chocolate_leggings_inv.png",
 		groups = {armor_legs=1, armor_heal=10, armor_use=80, armor_fire=5},
@@ -29,7 +29,7 @@ if minetest.get_modpath("3d_armor") then
 		wear = 0,
 	})
 
-	armor:register_armor("power_chocolate:boots", {
+	armor:register_armor("chocolate:power_boots", {
 		description = ("Power Chocolate Boots"),
 		inventory_image = "power_chocolate_boots_inv.png",
 		groups = {armor_feet=1, armor_heal=10, armor_use=80, armor_fire=5, physics_jump=3, physics_speed = 5},
@@ -38,7 +38,7 @@ if minetest.get_modpath("3d_armor") then
 		wear = 0,
 	})
 
-	armor:register_armor("power_chocolate:shield", {
+	armor:register_armor("chocolate:power_shield", {
 		description = ("Power Chocolate Shield"),
 		inventory_image = "power_chocolate_shield_inv.png",
 		groups = {armor_shield=1, armor_heal=10, armor_use=80, armor_fire=3},
