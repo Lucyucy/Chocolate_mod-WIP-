@@ -25,6 +25,15 @@ minetest.register_craft({
 		}
 })
 
+minetest.register_craft({
+    output = "chocolate:power_chocolate_block",
+    recipe = {
+        {"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
+        {"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"},
+        {"chocolate:power_chocolate", "chocolate:power_chocolate", "chocolate:power_chocolate"}
+    }
+})
+
 -- Tool crafts
 
 minetest.register_craft({
