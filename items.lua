@@ -4,6 +4,12 @@ minetest.register_craftitem("chocolate:chocolate", {
     on_use = minetest.item_eat(2),
 })
 
+minetest.register_craftitem("chocolate:blueberry_chocolate", {
+    description = "Blueberry Chocolate",
+    inventory_image = "blueberry_chocolate.png",
+    on_use = minetest.item_eat(2),
+})
+
 minetest.register_craftitem("chocolate:power_chocolate", {
     description = "Power Chocolate",
     inventory_image = "power_chocolate.png",
